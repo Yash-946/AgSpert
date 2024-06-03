@@ -1,4 +1,3 @@
-import { useColorMode } from "@chakra-ui/react";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
@@ -11,7 +10,6 @@ type LoginType = {
 function Auth() {
   const navigate = useNavigate();
   const { handleSubmit, register, formState: { errors } } = useForm<LoginType>();
-  const { colorMode } = useColorMode();
 
   useEffect(()=>{
 

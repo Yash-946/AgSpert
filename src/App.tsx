@@ -3,9 +3,6 @@ import './App.css'
 import Login from "./pages/Login"
 import Order from "./pages/Order"
 import { RecoilRoot } from "recoil"
-import Navbar from "./components/navbar"
-
-
 
 
 function App() {
